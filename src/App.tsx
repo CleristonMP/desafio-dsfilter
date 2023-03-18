@@ -1,5 +1,15 @@
+import FilterCard from "./components/FilterCard";
+import Header from "./components/Header";
+
 function App() {
-  return <h1>DESAFIO DSFilter</h1>;
+  return (
+    <>
+      <Header />
+      <main>
+        <FilterCard />
+      </main>
+    </>
+  );
 }
 
 export default App;
