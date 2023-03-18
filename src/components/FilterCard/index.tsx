@@ -2,7 +2,7 @@ import "./styles.css";
 
 export default function FilterCard() {
   return (
-    <div className="container">
+    <section id="filter-section" className="container mb20">
       <form className="filter-form">
         <div>
           <input
@@ -24,6 +24,6 @@ export default function FilterCard() {
           <button type="submit">Filtrar</button>
         </div>
       </form>
-    </div>
+    </section>
   );
 }

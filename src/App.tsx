@@ -1,5 +1,6 @@
 import FilterCard from "./components/FilterCard";
 import Header from "./components/Header";
+import Listing from "./components/Listing";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Header />
       <main>
         <FilterCard />
+        <Listing />
       </main>
     </>
   );
